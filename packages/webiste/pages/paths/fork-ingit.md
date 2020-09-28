@@ -14,30 +14,30 @@
 }}
 />
 
-[Fork de um repositório](https://docs.github.com/pt/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+[Bifurcar um repositório](https://docs.github.com/pt/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
 
 
 
-Vamos ao passo-a-passo, primeiro, você já tem sua conta no GitHub? [Faça-a aqui : ](https://github.com/join).
+Vamos ao passo-a-passo, primeiro, você já tem sua conta no Github? [Faça-a aqui : ](https://github.com/join).
 
-Supondo já ser um membro Git, basta escolher o repositório no qual você quer dar um _Fork_
+Supondo já ser um membro Git, basta escolher o repositório no qual você quer _bifurcar_
 
 ## Realizando um fork 
 
 1. Faça um fork. Dessa forma, você consegue fazer o que quiser com o código.
 
-<img src="https://i.ibb.co/LZR5hDq/fork-git.png" alt="Fork na região em 'Rosa'" style={{ width: "55%",
+<img src="https://i.ibb.co/LZR5hDq/fork-git.png" alt="Fork na região em 'Rosa' Github" style={{ width: "55%",
   border:"0",
 }}
 />
 
 2. Selecione o repositório da sua conta que vai 'armazenar' o código.
 
-3. Dê um clone do novo repositório, aquele que você acabou de dar um _Fork_, com o seguinte comando: 
+3. Dê um clone do novo repositório, aquele que você acabou de _bifurcar_, com o seguinte comando: 
  `git clone https://github.com/nome-seu/nome-repo.git`
 
-4. Acesse, visualize e faça alterações para então realizar um _push_(**) para o repositório que aponta para a sua conta pessoal, ou seja, que está no seu repositório pessoal do GitHub.
+4. Acesse, visualize e faça alterações para então realizar um _push_(**) para o repositório que aponta para a sua conta pessoal, ou seja, que está no seu repositório no Github.
 
 **= `git push --set-upstream origin master`
 
@@ -46,9 +46,4 @@ Supondo já ser um membro Git, basta escolher o repositório no qual você quer 
 
 Agora, as pessoas envolvidas no repositório irão revisar, discutir e conversar sobre o que você enviou...
 
-Por fim, se o gerenciador do repositório aprovar o seu **Pull Request**, o **PR** é aceito e é feito um _merge_ no repositório oficial fechando assim a **Pull Request**.
-
-
-### Ficou com alguma dúvida?
-## Surgiu uma curiosidade, nem tão relacionada ao assunto?
-# Expresse sua curiosidade/dúvida no canal do Dev-School no Slack e vamos conversar sobre este assunto _tão relevante_ no mundo de desenvolvimento e armazenagem de códigos!!
+Por fim, o gerenciador do repositório aceita seu **Pull Request**, faz um _merge_ no repositório oficial e fecha a **Pull Request**
